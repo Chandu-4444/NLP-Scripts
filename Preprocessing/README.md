@@ -91,3 +91,14 @@ Knowledge about the structure and syntax of language is helpful in many areas li
 Parts of speech (POS) tagging is the process of assigning a part of speech to each word in a sentence. The part of speech is a broad term that includes nouns, verbs, adjectives, adverbs, prepositions, conjunctions, and other parts of speech.
 
 - [POS Tagging](pos_tagging.py)
+
+### Shallow Parsing or Chunking
+
+Shallow parsing or chunking is the process of breaking a sentence into smaller units called chunks. A chunk is a part of a sentence that is not a verb, noun, adjective, adverb, or other part of speech.
+
+_chinking_: A chunk is a part of a sentence that is not a verb, noun, adjective, adverb, or other part of speech.
+
+- [Shallow Parsing](shallow_parsing.py)
+
+
+- #### TODO: Dependency Parsing, Constituency Parsing
