@@ -84,3 +84,10 @@ Knowledge about the structure and syntax of language is helpful in many areas li
 
 - Constituency parsing
 
+## Important ML Concepts
+
+### POS Tagging
+
+Parts of speech (POS) tagging is the process of assigning a part of speech to each word in a sentence. The part of speech is a broad term that includes nouns, verbs, adjectives, adverbs, prepositions, conjunctions, and other parts of speech.
+
+- [POS Tagging](pos_tagging.py)
