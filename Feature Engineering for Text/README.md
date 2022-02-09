@@ -57,3 +57,26 @@ We'll normalize the TF-IDF values by dividing it by the L2 norm.
 ### Document Similarity
 
 - [Document Similarity](document_similarity.py)
+
+## Advanced Feature Engineering
+
+> A word is characterized by the company it keeps
+
+### Word2Vec Model
+
+These models are unsupervised methods.
+
+- The Continuous Bag of Words (CBOW) model
+ 
+- The skip-Gram model
+
+### The Continuous Bag of Words (CBOW) Model
+
+"The quick brown fox jumps over the lazy dog"
+
+We split the pairs as (context_window, target_window) 
+    -> ([quick, fox], brown)
+    -> ([the, brown], quick) etc
+
+Thus, the model tries to predict the target_window based on the context_window.
+
